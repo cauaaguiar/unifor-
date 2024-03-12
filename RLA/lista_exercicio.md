@@ -36,3 +36,8 @@ I --> Z
 12       ESCREVA "O número deve ser positivo!"
 13 FIM_ALGORITMO
 ```
+
+#### Teste de mesa
+| col1  |  col2  |  col3  |
+| --  |  --  | -- |
+| d1 | d2 | d3 
