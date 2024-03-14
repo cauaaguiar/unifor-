@@ -46,6 +46,12 @@ Dadas duas variáveis, $a$ e $b$, implemente e teste um algoritmo para trocar os
 ```mermaid
 flowchart TD
 A([INICIO]) --> B([FIM])
+B --> C[/A/]
+C --> D{{Digite B}}
+D --> E[/B/]
+E --> F{{Troca valores de A e B}}
+F --> G([Fim]) 
+
 ```
 
 #### Pseudocódigo (0.5 ponto)
