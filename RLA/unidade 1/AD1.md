@@ -45,7 +45,7 @@ Dadas duas variáveis, $a$ e $b$, implemente e teste um algoritmo para trocar os
 
 ```mermaid
 flowchart TD
-A([INICIO]) --> B {{ Digite A}}
+A([INICIO]) --> B{{ Digite A}}
 B --> C[/A/]
 C --> D{{Digite B}}
 D --> E[/B/]
