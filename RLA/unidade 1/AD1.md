@@ -109,10 +109,15 @@ Aceite apenas $n$ maior ou igual a zero.
 
 #### Fluxograma (0.25 ponto)
 
-```mermaid
-flowchart TD
-A([INICIO]) --> B([FIM])
-```
+```mermaid 
+flowchart TD 
+    A(Início) --> B(Entrada dos números);
+    B --> C(Validação dos números >= 0);
+    C --> D(Número válido?);
+    D --> E(Sim);
+    E --> F(Adicionar número à soma);
+    D --> H(Não);
+    H --> I(Rejeitar número);
 
 #### Pseudocódigo (0.5 ponto)
 
