@@ -75,9 +75,17 @@ Será considerado aprovado o aluno que tirar $nota$ 50 ou maior (no intervalo de
 
 #### Fluxograma (0.25 ponto)
 
-```mermaid
-flowchart TD
-A([INICIO]) --> B([FIM])
+```mermaid 
+flowchart TD 
+    A(Início) --> B(Entrada das notas);
+    B --> C(Contador de alunos aprovados = 0);
+    C --> D(Para cada nota no conjunto de notas);
+    D --> E(Nota >= 50);
+    E --> F(Sim);
+    F --> G(Aprovado);
+    E --> H(Não);   
+    H --> K(Reprovado);
+    K --> M(Fim)
 ```
 
 #### Pseudocódigo (0.5 ponto)
