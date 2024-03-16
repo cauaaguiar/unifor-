@@ -118,6 +118,7 @@ flowchart TD
     E --> F(Adicionar número à soma);
     D --> H(Não);
     H --> I(Rejeitar número);
+```
 
 #### Pseudocódigo (0.5 ponto)
 
