@@ -29,7 +29,7 @@ Represente, em fluxograma e pseudocódigo, um algoritmo para calcular o novo sal
 funcionário. Sabe-se que os funcionários que recebem atualmente salário de até R$ 500 terão
 aumento de 20%; os demais terão aumento de 10%.
 
-####Fluxograma
+#### Fluxograma
 
 ```mermaid
 flowchart TD
@@ -48,4 +48,6 @@ flowchart TD
 
 
 ```
+#### Pseudocódigo 
+
 
