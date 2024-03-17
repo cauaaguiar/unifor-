@@ -50,6 +50,14 @@ flowchart TD
 ```
 #### Pseudocódigo 
 
+
+#### Teste de mesa 
+| Salário  | Exemplo 01/salário R$400 | Exemplo 02/salário R$1000 |  
+|      --      |      --      |      --      |      --      |      --      | 
+| Salário igual ou menor que R$500    | Salário ficou R$480       | //   |  alinhar     | as barras    |
+| Salário maior que R$500   | //         | Salário ficou R$1,100        | obrigatório. | Entendido ?  |
+
+
 ### Exercicio 3
 Represente, em fluxograma e pseudocódigo, um algoritmo para determinar se um número inteiro
 e positivo é par ou impar
