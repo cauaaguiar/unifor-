@@ -48,6 +48,7 @@ flowchart TD
 ```
 
 #### Pseudocódigo 
+```
 1 ALGORITMO converter_tempertura 
 2 DECLARE TC, TF
 3 ESCREVA "Digite a temperatura em graus celsius"
@@ -60,5 +61,6 @@ flowchart TD
 |      --      |    --    |    --    |
 | 37  | 98.6  | "A temperatura em Fahrenheit é 98.6 |
 | 12  | 53.6  | "A temperatura em Fahrenheit é 56.6 |
+```
 
 
