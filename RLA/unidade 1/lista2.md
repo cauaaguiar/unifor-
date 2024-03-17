@@ -56,11 +56,13 @@ flowchart TD
 5 TF=(9/5*TC+32
 6 ESCREVA "A temperatura em graus fahrenheit é"
 7 FIM
+```
+
 #### Teste de mesa
 |  TC  | TF= (9/5) * TC + 32 | SAIDA
 |      --      |    --    |    --    |
 | 37  | 98.6  | "A temperatura em Fahrenheit é 98.6 |
 | 12  | 53.6  | "A temperatura em Fahrenheit é 56.6 |
-```
+
 
 
