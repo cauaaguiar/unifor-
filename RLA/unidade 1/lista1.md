@@ -117,10 +117,11 @@ flowchart TD
 ```
 #### Teste de mesa 
 
-| Idade  | Situação para tirar CNH | 
-| --  |  --  |
-| 18 Anos  | Aprovaado|
-| 15 Anos  | Reprovado|
+| Idade  | Situação para tirar CNH | Anos Faltantes
+| --  |  --  |  --  |
+| 18 Anos  | Aprovaado| 0 anos |
+| 15 Anos  | Reprovado| 3 anos 
+
 
 
 
