@@ -115,7 +115,12 @@ flowchart TD
     I --> F(Fim);
     
     ``` 
-    
+    #### Teste de mesa
+| Idade  | Situação para tirar CNH | 
+| --  |  --  |
+| 18 Anos  | Aprovaado|
+| 15 Anos  | Reprovado|
+
 
 
 
