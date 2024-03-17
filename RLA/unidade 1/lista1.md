@@ -19,6 +19,7 @@ flowchart TD
     G --> H(FIM)
     E --> I(Não)
     I --> J(Reprovado)
-    J --> H(Fim) 
+    J --> H(Fim)
+#### Pseudocódigo
 
 ```
