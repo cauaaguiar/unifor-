@@ -118,10 +118,7 @@ flowchart TD
 
 
 
-| Idade  | Situação para tirar CNH | 
-| --  |  --  |
-| 18 Anos  | Aprovaado|
-| 15 Anos  | Reprovado|
+
 
 
 
