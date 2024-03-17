@@ -24,4 +24,12 @@ flowchart TD
 #### Pseudocódigo 
 
 #### Teste de mesa 
+| Números      | 
+|      --      | 
+| 5            | 
+| 7            |
+| 2            |
+| 13           |
+|Total= 27     |
+| Média = 13,5 |
 
