@@ -7,8 +7,8 @@ flowchart TD
     C --> D(Calcular a média aritmética);
     D --> E(Verificar se a média é maior ou igual a 6);
     E --> F(Sim);
-    F --> G(Imprimir "Aprovado");
-    G --> H(Fim);
+    G --> H(Imprimir "Aprovado");
+    I --> J(Fim);
     E --> I(Não);
     I --> J(Imprimir "Reprovado");
     J --> H(Fim);
