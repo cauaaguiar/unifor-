@@ -71,6 +71,26 @@ flowchart TD
 #### Pseudocódigo
 
 ### Exercicio 4
+Represente, em fluxograma e pseudocódigo, um algoritmo que, a partir da idade do candidato(a),
+determinar se pode ou não tirar a CNH. Caso não atender a restrição de idade, calcular quantos
+anos faltam para o candidato estar apto
+
+#### Fluxograma 
+```mermaid 
+flowchart TD
+
+    A(Início) --> B(Entrada da idade do candidato);
+    B --> C(Verificar se a idade é maior ou igual a 18 anos);
+    C --> D(Sim);
+    D --> E( Pode tirar a CNH);
+    E --> F(Fim);
+    C --> G(Não);
+    G --> H(Calcular anos faltantes);
+    H --> I(Imprimir anos faltantes);
+    I --> F(Fim);
+    
+    ``` 
+    
 
 
 
