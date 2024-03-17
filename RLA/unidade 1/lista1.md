@@ -87,6 +87,14 @@ flowchart TD
 ```
 #### Pseudocódigo
 
+#### Teste de mesa 
+| numero | Número Impar ou Par |
+| -- | -- |
+| 1|Impar | 
+| 4  |Par|
+| 13 | Impar| 
+| 20 | Par |  
+
 ### Exercicio 4
 Represente, em fluxograma e pseudocódigo, um algoritmo que, a partir da idade do candidato(a),
 determinar se pode ou não tirar a CNH. Caso não atender a restrição de idade, calcular quantos
