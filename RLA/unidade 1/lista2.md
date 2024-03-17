@@ -33,3 +33,21 @@ flowchart TD
 |Total= 27     |
 | Média = 13,5 |
 
+## Exercicio 02 
+
+#### Fluxograma 
+``` mermaid 
+flowchart TD
+
+    A(Início) --> B{{Entrada da temperatura em Celsius}};
+    B --> C(Calcular temperatura em Fahrenheit);
+    C --> D(Converter temperatura para Fahrenheit);
+    D --> E(Imprimir temperatura em Fahrenheit);
+    E --> F(Fim);
+
+```
+
+#### Pseudocódigo 
+
+#### Teste de mesa
+
