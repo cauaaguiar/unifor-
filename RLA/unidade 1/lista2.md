@@ -14,7 +14,7 @@ flowchart TD
     C --> D{{Entrada do terceiro número}};
     D --> {{Entrada do quarto número}};
     E --> F{{Calcular média}};
-    F --> G(/Resultado/);
+    F --> G(Resultado);
     G --> H(Fim);
 
 ```
