@@ -10,11 +10,11 @@ Calcule a média de quatro números inteiros dados.
 flowchart TD 
 
     A(Início) --> B(Entrada do primeiro número);
-    B --> C(Entrada do segundo número);
-    C --> D(Entrada do terceiro número);
-    D --> E(Entrada do quarto número);
-    E --> F(Calcular média);
-    F --> G(Resultado );
+    B --> C{{Entrada do segundo número}};
+    C --> D{{Entrada do terceiro número}};
+    D --> {{(Entrada do quarto número}};
+    E --> F{{Calcular médi}});
+    F --> G(/Resultado/ );
     G --> H(Fim);
 
 ```
