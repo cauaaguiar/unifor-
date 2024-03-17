@@ -12,7 +12,7 @@ flowchart TD
     A(Início) --> B(Entrada do primeiro número);
     B --> C{{Entrada do segundo número}};
     C --> D{{Entrada do terceiro número}};
-    D --> {{(Entrada do quarto número}};
+    D --> {{Entrada do quarto número}};
     E --> F{{Calcular médi}});
     F --> G(/Resultado/ );
     G --> H(Fim);
