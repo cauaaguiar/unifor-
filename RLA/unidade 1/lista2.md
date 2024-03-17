@@ -48,6 +48,17 @@ flowchart TD
 ```
 
 #### Pseudocódigo 
-
+ALGORITMO converter_tempertura 
+DECLARE TC, TF
+ESCREVA "Digite a temperatura em graus celsius"
+LEIA TC
+TF=(9/5*TC+32
+ESCREVA "A temperatura em graus fahrenheit é"
+FIM
 #### Teste de mesa
+|  TC  | TF= (9/5) * TC + 32 | SAIDA
+|      --      |    --    |    --    |
+| 37  | 98.6  | "A temperatura em Fahrenheit é 98.6 |
+| 12  | 53.6  | "A temperatura em Fahrenheit é 56.6 |
+
 
