@@ -24,6 +24,14 @@ flowchart TD
 
 #### Pseudocódigo
 
+#### Teste de mesa 
+| Notas  | Calculo || 
+|      --      |      --      |      --      |      --      |      --      | 
+| Nota 1     | 8       |
+| Nota 2   | 6       | 
+| Média Aritmética |8+6/2=7 
+| Média = | 7 / APROVADO
+
 ### Exercício 02
 Represente, em fluxograma e pseudocódigo, um algoritmo para calcular o novo salário de um
 funcionário. Sabe-se que os funcionários que recebem atualmente salário de até R$ 500 terão
