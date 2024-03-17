@@ -64,5 +64,29 @@ flowchart TD
 | 37  | 98.6  | "A temperatura em Fahrenheit é 98.6 |
 | 12  | 53.6  | "A temperatura em Fahrenheit é 56.6 |
 
+## Exercicio 03 
+
+#### Fluxograma 
+
+```mermaid 
+flowchart TD
+A([Inicio]) --> B{{Digite o primeiro e o segundo número}}
+B --> C[/N1 ; N2/]
+C --> D{{ Digite o operador }}
+D --> E[/operador/]
+E --> F{"operador=="+""}
+F --SIM--> O[resultado=N1+N2]
+O --> M
+F --NÃO--> G{"operador=="-""}
+G --SIM--> P[resultado=N1-N2]
+P --> M
+G --NÃO--> H{"operador=="*""}
+I --> J{"N2==0"}
+J --SIM--> K{{"Não existe divisão por 0"}}
+K --> N
+J --NÃO--> L[resultado=N1/N2]
+L --> M{{"O resultado da operacao é;resultado"}}
+M --> N([FIM])
+
 
 
