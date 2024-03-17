@@ -1,7 +1,11 @@
+# UNIFOR 
+**Disciplina:** Raciocinio Lógico e Algoritimos
+**Orientador**:Prof: Ricardo Carubbi 
 
-#Lista de exercicios 
-##Exercicio 01
-###Fluxograma
+## Lista de exercícios 
+### Exercício 03 
+Represente , em fluxograma e pseudocódigo, um algorítimo para determinar se o número inteiro positivo é par ou ímpar
+#### Fluxograma 
 ```mermaid
 flowchart TD
     A(Início) --> B{{Entrada da primeira nota}}
