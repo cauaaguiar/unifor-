@@ -1,15 +1,18 @@
 
-###Fluxograma
+##Lista de exercicios 
+###Exercicio 01
+####Fluxograma
 ```mermaid
 flowchart TD
-    A(Início) --> B(Entrada da primeira nota);
-    B --> C(Entrada da segunda nota);
-    C --> D(Calcular a média aritmética);
+    A(Início) --> B{{Entrada da primeira nota}}
+    B --> C{{Entrada da segunda nota}};
+    C --> D[/Calcular a média aritmética/];
     D --> E(Verificar se a média é maior ou igual a 6);
     E --> F(Sim);
-    G --> H(Imprimir "Aprovado");
-    I --> J(Fim);
-    E --> I(Não);
-    I --> J(Imprimir "Reprovado");
-    J --> H(Fim);
+    F --> G(Aprovado)
+    G --> H(FIM)
+    E --> I(Não)
+    I --> J(Reprovado)
+    J --> H(Fim) 
+
 ```
