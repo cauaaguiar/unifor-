@@ -20,6 +20,32 @@ flowchart TD
     E --> I(Não)
     I --> J(Reprovado)
     J --> H(Fim)
+ ```
+
 #### Pseudocódigo
 
+### Exercício 02
+Represente, em fluxograma e pseudocódigo, um algoritmo para calcular o novo salário de um
+funcionário. Sabe-se que os funcionários que recebem atualmente salário de até R$ 500 terão
+aumento de 20%; os demais terão aumento de 10%.
+
+####Fluxograma
+
+```mermaid
+flowchart TD
+   
+    A(Início) --> B(Entrada do salário atual);
+    B --> C(Verificar se o salário atual é menor ou igual a R$ 500);
+    C --> D(Sim);
+    D --> E(Calcular aumento de 20%);
+    E --> F(Calcular novo salário);
+    F --> G(Imprimir novo salário);
+    G --> H(Fim);
+    C --> I(Não);
+    I --> J(Calcular aumento de 10%);
+    J --> K(Calcular novo salário);
+    K --> G;
+
+
 ```
+
