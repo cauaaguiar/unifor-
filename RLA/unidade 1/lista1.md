@@ -61,7 +61,7 @@ flowchart TD
 
 #### Teste de mesa 
 | Salário  | Exemplo 01/salário R$400 | Exemplo 02/salário R$1000 |  
-|      --      |      --      |
+|      --      |      --      |      --      |   
 | Salário igual ou menor que R$500    | Salário ficou R$480       | //   |  
 | Salário maior que R$500   | //         | Salário ficou R$1,100        | 
 
