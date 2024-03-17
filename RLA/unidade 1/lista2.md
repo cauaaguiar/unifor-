@@ -87,6 +87,43 @@ K --> N
 J --NÃO--> L[resultado=N1/N2]
 L --> M{{"O resultado da operacao é;resultado"}}
 M --> N([FIM])
+```
+#### Pseudocódigo 
+```
+ALGORITMO calculadora
+DECLARE N1, N2, resultado: REAL
+		operador: CARACTERE
+INICIO
+ESCREVA "Digite o primeiro número: "
+LEIA N1
+ESCREVA "Digite o segundo número: "
+LEIA N2
+ESCREVA "Digite o operador: "
+LEIA operador
+ESCOLHA
+	CASO operador=="+"
+		resultado=N1+N2
+	CASO operador=="-"
+		resultado=N1-N2
+	CASO operador=="*"
+		resultado=N1*N2
+	CASO operador=="/"
+		SE N2==0 ENTÃO
+			ESCREVA "Não existe divisão por zero!"
+		SENÃO
+			resultado=N1/N2
+		FIM_SE
+FIM_ESCOLHA
+ESCREVA "O resultado da operação é: ", resultado
+FIM	
+```
+#### Teste de mesa 
+
+
+
+
+
+
 
 
 
