@@ -25,7 +25,7 @@ flowchart TD
 #### Pseudocódigo
 
 #### Teste de mesa 
-| Notas  | Calculo || 
+| Notas  | Calculo |
 |      --      |      --      |      --      |      --      |      --      | 
 | Nota 1     | 8       |
 | Nota 2   | 6       | 
