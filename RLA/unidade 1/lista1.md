@@ -50,4 +50,27 @@ flowchart TD
 ```
 #### Pseudocódigo 
 
+### Exercicio 3
+Represente, em fluxograma e pseudocódigo, um algoritmo para determinar se um número inteiro
+e positivo é par ou impar
+
+#### Fluxograma 
+```mermaid
+flowchart TD
+
+    A(Início) --> B(Entrada do número inteiro positivo);
+    B --> C(Verificar se o número é par ou ímpar);
+    C --> D(Se o número for par);
+    D --> E(Imprimir número par)
+    E --> F(Fim)
+    C --> G(Se o número for impar)
+    G --> H(Imprimir número impar)
+    H -->F(Fim)
+
+```
+#### Pseudocódigo
+
+### Exercicio 4
+
+
 
