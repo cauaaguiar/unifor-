@@ -1,7 +1,7 @@
 
-##Lista de exercicios 
-###Exercicio 01
-####Fluxograma
+#Lista de exercicios 
+##Exercicio 01
+###Fluxograma
 ```mermaid
 flowchart TD
     A(Início) --> B{{Entrada da primeira nota}}
