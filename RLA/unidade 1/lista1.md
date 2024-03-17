@@ -113,8 +113,15 @@ flowchart TD
     G --> H(Calcular anos faltantes);
     H --> I(Imprimir anos faltantes);
     I --> F(Fim);
-    
-    ``` 
+
+    ```
+
+| Idade  | Situação para tirar CNH | 
+| --  |  --  |
+| 18 Anos  | Aprovaado|
+| 15 Anos  | Reprovado|
+
+
 
 
 
