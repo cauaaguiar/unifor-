@@ -124,6 +124,11 @@ FIM
 ```
 #### Teste de mesa 
 
+| LEIA N1 | LEIA N2 | LEIA operador | operador=="+"| operador=="-" | operador=="*" |operador=="/" | SAÍDA |
+|    --   |   --    |       --      |      --      |      --       |    --         |    --        |   --  | 
+| 7       | 3       | +             |        V     |          F    |            F  |            F | "O resultado da operação é: 10"  |
+| 2       | 4       |     *         |         F    |       F       |       V       |     F        |  "O resultado da operação é: 8" |
+| 5       |  5      |     /         |            F |            F  |            F  |            V |  "O resultado da operação é 1 " |
 
 
 
