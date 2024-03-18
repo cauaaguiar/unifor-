@@ -65,7 +65,9 @@ flowchart TD
 | 12  | 53.6  | "A temperatura em Fahrenheit é 56.6 |
 
 ## Exercicio 03 
-
+Receba dois números reais e um operador e efetue a operação correspondente com os
+valores recebidos (operandos). O algoritmo deve retornar o resultado da operação
+selecionada simulando todas as operações de uma calculadora simples
 #### Fluxograma 
 
 ```mermaid 
