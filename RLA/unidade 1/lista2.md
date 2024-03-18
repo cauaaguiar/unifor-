@@ -133,6 +133,17 @@ FIM
 | 2       | 4       |     *         |         F    |       F       |       V       |     F        |  "O resultado da operação é: 8" |
 | 5       |  5      |     /         |            F |            F  |            F  |            V |  "O resultado da operação é 1 " |
 
+## Exercicio 04
+
+#### Fluxograma 
+
+
+
+#### Pseudocódigo 
+
+
+
+#### Teste de mesa 
 
 
 
