@@ -6,23 +6,29 @@
 Calcule a média de quatro números inteiros dados.
 #### Fluxograma (1.0 ponto)
 
-```mermaid 
-flowchart TD 
-
-   A(Início) --> B(Entrada do primeiro número);
-    B --> C(Entrada do segundo número);
-    C --> D(Entrada do terceiro número);
-    D --> E(Entrada do quarto número);
-    E --> F(Calcular média);
-    F --> G(Imprimir média);
-    G --> H(Fim);
-
-
-
+```mermaid
+flowchart TD
+A([INÍCIO])-->B{{Informe os 4 números inteiros}}
+B-->C[/N1, N2, N3, N4/]
+C-->D[M=N1+N2+N3+N4/4]
+D-->E{{A média é M}}
+E-->F([FIM])
 ```
 
 #### Pseudocódigo 
 
+```
+ALGORITMO
+DECLARE N1,N2,N3,N4 : INTEIRO
+M : REAL
+INICIO
+ESCREVA "Informe os 4 números inteiros: "
+LEIA N1,N2,N3,N4
+M=(N1+N2+N3+N4)/4
+ESCREVA " A média é: ",M
+FIM
+
+```
 #### Teste de mesa 
 | Números      | 
 |      --      | 
