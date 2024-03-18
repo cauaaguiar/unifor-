@@ -136,7 +136,25 @@ FIM
 ## Exercicio 04
 
 #### Fluxograma 
+```mermaid 
+flowchart TD 
 
+    
+    A[Início] --> B{{Entrada de Idade}};
+    B -->|Idade >= 5 e Idade <= 7| C[Infantil A]
+    B -->|Idade >= 8 e Idade <= 10| D[Infantil B]
+    B -->|Idade >= 11 e Idade <= 13| E[Juvenil A]
+    B -->|Idade >= 14 e Idade <= 17| F[Juvenil B]
+    B -->|Idade > 18| G[Adulto]
+    C --> H[Fim]
+    D --> H[Fim]
+    E --> H[Fim]
+    F --> H[Fim]
+    G --> H[Fim]
+    H[Fim] --> I[Final]
+
+
+```
 
 
 #### Pseudocódigo 
