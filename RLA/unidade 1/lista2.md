@@ -73,26 +73,28 @@ valores recebidos (operandos). O algoritmo deve retornar o resultado da operaç�
 selecionada simulando todas as operações de uma calculadora simples
 obs;muita dificuldade 
 #### Fluxograma 
-
-```mermaid 
+```mermaid
 flowchart TD
-A([Inicio]) --> B{{Digite o primeiro e o segundo número}}
-B --> C[/N1 ; N2/]
-C --> D{{ Digite o operador }}
-D --> E[/operador/]
-E --> F{"operador=="+""}
-F --SIM--> O[resultado=N1+N2]
-O --> M
-F --NÃO--> G{"operador=="-""}
-G --SIM--> P[resultado=N1-N2]
-P --> M
-G --NÃO--> H{"operador=="*""}
-I --> J{"N2==0"}
-J --SIM--> K{{"Não existe divisão por 0"}}
-K --> N
-J --NÃO--> L[resultado=N1/N2]
-L --> M{{"O resultado da operacao é;resultado"}}
-M --> N([FIM])
+A([Início])-->B{{"Digite o primeiro e o segundo número: "}}
+B-->C[/N1, N2/]
+C-->D{{"Digite o operador: "}}
+D-->E[/operador/]
+E-->F{"operador=="+""}
+F--SIM-->O[resultado=N1+N2]
+O-->M
+F--NÃO-->G{"operador=="-""}
+G--SIM-->P[resultado=N1-N2]
+P-->M
+G--NÃO-->H{"operador=="*""}
+H--SIM-->Q[resultado=N1*N2]
+Q-->M
+H-->I{"operador=="/""}
+I-->J{"N2==0"}
+J--SIM-->K{{"Não existe divisão por zero!"}}
+K-->N
+J--NÃO-->L[resultado=N1/N2]
+L-->M{{"O resultado da operação é: resultado"}}
+M-->N([FIM])
 ```
 #### Pseudocódigo 
 ```
