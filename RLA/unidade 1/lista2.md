@@ -158,6 +158,29 @@ flowchart TD
 
 
 #### Pseudocódigo 
+```
+Algoritmo ClassificaCategoria
+DECLARE categoria
+INICIO 
+LEIA entrada de idade
+CASO I >= 5 <= 7 
+    CAT = Infantil A
+CASO I >= 8 <= 10
+ 	CAT = Infantil B
+CASO I >= 11 <= 13
+ 	CAT = Juvenil A
+ CASO I >= 14 <= 17
+ 	CAT = Juvenil B
+ SENÃO
+ 	CAT = Adulto
+FIM_ALGORITMO
+
+``` 
+
+
+
+
+
 
 
 
