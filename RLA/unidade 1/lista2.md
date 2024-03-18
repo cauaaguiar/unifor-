@@ -179,14 +179,13 @@ FIM_ALGORITMO
 
 
 
-
-
-
-
-
 #### Teste de mesa 
 
-
+|  IDADE  | CATEGORIA  |
+|      --      |      --      |
+|  7 anos | Infantil B |
+| 12 anos | Juvenil A  |
+|  8 anos | Adulto     |
 
 
 
