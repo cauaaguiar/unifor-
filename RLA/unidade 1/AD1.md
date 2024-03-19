@@ -191,10 +191,10 @@ FIM_ALGORITMO
 
 #### Teste de mesa (0.25 ponto)
 
-| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
-|      --      |      --      |      --      |      --      |      --      | 
-| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
-| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
+| SEQUENCIA DE NÚMEROS  |   VALOR DA SOMA TOTAL  |
+|      --               |        --              |
+| 2 , 4 , 20 , 49, 39   |        114             |
+| 1 , 2 , 3 , 4 , 5 ,6  |        21              |
 
 ### Questão 4 - Cálculo de uma série (1 ponto)
 
