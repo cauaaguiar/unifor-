@@ -134,10 +134,11 @@ FIM_ALGORÍRIMO
 
 #### Teste de mesa (0.25 ponto)
 
-| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
-|      --      |      --      |      --      |      --      |      --      | 
-| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
-| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
+|    NADA      |  ALUNO 01    |  ALUNO 02    |  ALUNO 03    |  ALUNO 04  |  ALUNO 05     | 
+|    --        |  --          |  --          |   --         |   --       |    --         | 
+|   NOTAS      | 70           |  60          |   55         |  80        |  10           |
+|  SITUAÇÃO    | APROVADO     |  APROVADO    |   APROVADO   |  APROVADO  | REPROVADO     |
+
 
 ### Questão 3 - Soma de um conjunto de números (1 ponto)
 
