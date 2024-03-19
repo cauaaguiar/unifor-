@@ -9,7 +9,7 @@
 **Aluno(a):** Cauã Aguiar
 **Matrícula:** 2410595
 
-**1a chamada (Sim/Não):** preencha com a opção correta <br>
+**1a chamada (Sim/Não):** SIM  <br>
 **2a chamada (Sim/Não):** preencha com a opção correta
 
 # Avaliação Diagnóstica 1
@@ -107,7 +107,7 @@ N --> H
 I --> Z([FIM])
 ```
 #### Pseudocódigo (0.5 ponto)
-
+```
 Algoritimo aprovação
 DECLARE N_ver, N_aprov, N_notas, i: Int
 	notas: Float
