@@ -147,21 +147,45 @@ Aceite apenas $n$ maior ou igual a zero.
 
 #### Fluxograma (0.25 ponto)
 
-```mermaid 
-flowchart TD 
-    A(Início) --> B(Entrada dos números);
-    B --> C(Validação dos números >= 0);
-    C --> D(Número válido?);
-    D --> E(Sim);
-    E --> F(Adicionar número à soma);
-    D --> H(Não);
-    H --> I(Rejeitar número);
+```mermaid
+flowchart TD
+A([INICIO])
+A --> C[soma = 0]
+C --> D{{Digite o número de elementos do conjunto que você quer somar}}
+D --> E[/num_som/]
+E --> F{num_som > 0}
+F--FALSE--> G{{Digite uma quantidade válida}}
+G --> E
+G --TRUE--> H{num_som = num_somados}
+H --FALSE--> I{{Digite um número}}
+I --> J[/num/]
+J --> K[soma = soma + num]
+K --> L[num_somados =+ 1]
+L --> H
+H --TRUE--> M{{A valor da soma total é soma}}
+M --> N([FIM])
 ```
 
 #### Pseudocódigo (0.5 ponto)
 
 ```
-Algoritmo ContaAprovacoes
+Algoritmo soma_de_valores
+DECLARE num_somados, num_soma: Int
+	num, soma: Float
+INICIO
+soma = 0
+ESCREVA "Digite o número de elementos do conjunto que você quer somar"
+LEIA num_soma
+ENQUANTO num_soma <= 0 FAÇA
+	ESCREVA "Digite uma quantidade válida"
+	LEIA num_soma
+FIM_ENQUANTO
+PARA num_somados DE 1 até Num_soma [PASSO 1] FAÇA
+	ESCREVA "Digite um número"
+	LEIA num
+	soma =+ num
+FIM_PARA
+ESCREVA "O valor da soma total é", soma
 FIM_ALGORITMO
 ```
 
