@@ -115,10 +115,11 @@ F --LOOP--> E
  ESCREVA "A soma da sequência é:", soma
  FIM
 ````
-
-
 #### Teste de mesa 
-
+|  NUM 1  |  NUM 2  |  NUM 3  |  NUM 4  |  NUM 5  |  NUM 6  |  SOMA DA SEQUENCIA  |
+|  --     |  --     |  --     |  --     |  --     |  --     |
+|  15     |  67     | -45     |  76     | 23      | -21     | A soma da sequencia é 115  |
+| 65      | 87      |  98     | 18      | - 98    | 100     | A soma da sequencia é 270  |
 ### Exercicio 04 
 Escreva um programa que leia a nota de diversos alunos, até que seja digitada uma nota
 negativa. Nesse momento, ele mostra a média aritmética de todas as notas lidas e quantas
