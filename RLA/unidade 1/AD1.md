@@ -43,15 +43,17 @@ Por exemplo, se na apresentação do exercício, o aluno atenter parcialmente os
 Dadas duas variáveis, $a$ e $b$, implemente e teste um algoritmo para trocar os valores atribuídos a elas.
 #### Fluxograma (0.25 ponto)
 
-```mermaid
+`mermaid
 flowchart TD
-A([INICIO]) --> B{{ Digite A}}
+A([INICIO]) --> B{{"Digite o valor de A"}}
 B --> C[/A/]
-C --> D{{Digite B}}
+C --> D{{"Digite o valor de B"}}
 D --> E[/B/]
-E --> F{{Troca valores de A e B}}
-F --> G([Fim]) 
-
+E --> F(Mem = B)
+F --> G(B = A)
+G --> H(A = Mem)
+H --> I{{A, B}}
+I --> J([FIM])
 ```
 
 #### Pseudocódigo (0.5 ponto)
