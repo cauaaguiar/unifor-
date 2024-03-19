@@ -36,7 +36,7 @@ FIM_ALGORITMO.
 
 #### Teste de mesa 
 | NOTA 1       | NOTA 2       | MÉDIA=N1+N2/2 |SITUAÇÃO 
-|      --      |      --      |    --         |
+|      --      |      --      |      --         |    --    |
 | 10           | 6            | 8             | Aprovado 
 | 5            | 9            | 7             | Aprovado 
 | 3            | 4            | 3,5           | Reprovado 
