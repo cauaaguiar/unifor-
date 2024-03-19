@@ -90,7 +90,17 @@ G --> E
 Dada uma sequência de números inteiros, calcular a sua soma. 
 Por exemplo, para a sequência {12, 17, 4, -6, 8, 0}, o seu programa deve escrever o número 35.
 #### Fluxograma 
-
+````mermaid
+flowchart TD
+A([Início]) --> B{{Digite seis números para a sequência:}}
+B --> C[\N1, N2, N3, N4, N5, N6\]
+C --> D[soma = 0]
+D --> E[[i = N1 ATÉ N6]]
+E --> G{{'A soma da sequência é:', soma}}
+E --> F[soma =+ i]
+G --> H([Fim])
+F --LOOP--> E
+````
 #### Pseudocódigos 
 
 #### Teste de mesa 
