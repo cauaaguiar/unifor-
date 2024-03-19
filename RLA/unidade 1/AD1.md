@@ -254,14 +254,40 @@ Dado um número $n$, calcular o fatorial de $n$ (escrito como $n!$), onde $n ≥
 
 ```mermaid
 flowchart TD
-A([INICIO]) --> B([FIM])
+A([INICIO]) --> B[fato = 1]
+B --> R[n_mult = 0]
+R-->C{{Digite o numero do fatorial que voce quer calcular}}
+C --> D[/n/]
+D --> E{n >= 0}
+E --FALSE--> F{{Digite um fatorial válido}}
+F --> D
+E --TRUE--> G{n = n_mult}
+G --FALSE--> H[n_mult =+ 1]
+H --> I[fato = fato * n_mult]
+I --> G
+G --TRUE--> Y{{O valor do fatorial de n é fato}}
+Y --> Z([FIM]) 
 ```
-
 #### Pseudocódigo (1.0 ponto)
 
 ```
-Algoritmo ContaAprovacoes
+Algoritmo fatorial
+DECLARE fato, n_mult, n: Int
+INICIO
+n_mult = 0
+ESCREVA "Digite o numero do fatorial que voce quer calcular"
+LEIA n
+ENQUANTO n < 0 FAÇA
+	ESCREVA "Digite um fatorial válido"
+	LEIA n
+FIM_ENQUANTO
+PARA n_mult DE 1 PARA n [PASSO 1] FAÇA
+	n_mult =+ 1
+	fato = fato * n_mult
+FIM_PARA
+ESCREVA "O valor do fatorial de", n, "é", fato 
 FIM_ALGORITMO
+```
 ```
 
 #### Teste de mesa (0.5 ponto)
