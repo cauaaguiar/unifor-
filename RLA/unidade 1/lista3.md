@@ -102,6 +102,20 @@ G --> H([Fim])
 F --LOOP--> E
 ````
 #### Pseudocódigos 
+````
+ ALGORITMO calculadora_simples
+ DECLARE N1, N2, N3, N4, N5, N6, Soma: INTEIRO
+ INÍCIO
+ ESCREVA "Digite seis números para a sequência:"
+ LEIA N1, N2, N3, N4, N5, N6
+ soma = 0
+ PARA i DE N1 ATÉ N6 FAÇA
+ soma = soma + i
+ FIM_PARA
+ ESCREVA "A soma da sequência é:", soma
+ FIM
+````
+
 
 #### Teste de mesa 
 
