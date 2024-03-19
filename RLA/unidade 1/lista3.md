@@ -125,3 +125,11 @@ Escreva um programa que leia a nota de diversos alunos, até que seja digitada u
 negativa. Nesse momento, ele mostra a média aritmética de todas as notas lidas e quantas
 notas foram lidas. Ex. Foram lidas 14 notas. A média aritmética é 6.75!
 #### Fluxograma 
+
+#### Pseudocódigo 
+
+#### Teste de mesa
+|  ALUNO 01  |  ALUNO 02  | ALUNO 03 |  ALUNO 04  |  ALUNO 05  |  NOTAS LIDAS  | MÉDIA ARITMÉTICA  |  
+|  --        |  --        |  --      |   --       |  --        |  --           |    --             |
+|  10        | 6          | 8        | 9          | -3         |  5            |  Média = 6,6      |
+
