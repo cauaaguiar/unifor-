@@ -108,9 +108,28 @@ I --> Z([FIM])
 ```
 #### Pseudocódigo (0.5 ponto)
 
-```
-Algoritmo ContaAprovacoes
-FIM_ALGORITMO
+Algoritimo aprovação
+DECLARE N_ver, N_aprov, N_notas, i: Int
+	notas: Float
+INICIO
+N_aprov = 0 
+ESCREVA "Digite a quanidade de notas para avaliar"
+LEIA N_notas
+ENQUANTO N_notas <= 0 REPITA
+	ESCREVA "Digite uma quantidade válida"
+	LEIA N_notas
+PARA N_ver DE 1 ATÉ N_notas FAÇA [PASSO 1]
+	ESCREVA "Insira a nota"
+	LEIA nota
+	SE nota >= 50 E nota <= 100
+		N_aprov =+ 1
+		N_ver =+ 1
+	SENÃO
+		N_ver =+ 1
+	FIM_SE
+FIM_PARA
+ESCREVA "A quantidade de notas aprovadas foi", N_aprov
+FIM_ALGORÍRIMO
 ```
 
 #### Teste de mesa (0.25 ponto)
