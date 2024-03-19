@@ -47,7 +47,7 @@ flowchart TD
     C --> D(Sim);
     D --> E(Calcular aumento de 20%);
     E --> F(Calcular novo salário);
-    F --> G(Imprimir novo salário);
+    F --> G(saída novo salário);
     G --> H(Fim);
     C --> I(Não);
     I --> J(Calcular aumento de 10%);
@@ -78,10 +78,10 @@ flowchart TD
     A(Início) --> B(Entrada do número inteiro positivo);
     B --> C(Verificar se o número é par ou ímpar);
     C --> D(Se o número for par);
-    D --> E(Imprimir número par)
+    D --> E(saída número par)
     E --> F(Fim)
     C --> G(Se o número for impar)
-    G --> H(Imprimir número impar)
+    G --> H(saída número impar)
     H -->F(Fim)
 
 ```
