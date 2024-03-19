@@ -116,8 +116,8 @@ F --LOOP--> E
  FIM
 ````
 #### Teste de mesa 
-|  NUM 1  |  NUM 2  |  NUM 3  |  NUM 4  |  NUM 5  |  NUM 6  |  SOMA DA SEQUENCIA  |
-|  --     |  --     |  --     |  --     |  --     |  --     |
+|  NUM 1  |  NUM 2  |  NUM 3  |  NUM 4  |  NUM 5  |  NUM 6  |  SOMA DA SEQUENCIA         |
+|  --     |  --     |  --     |  --     |  --     |  --     |  --                        |
 |  15     |  67     | -45     |  76     | 23      | -21     | A soma da sequencia é 115  |
 | 65      | 87      |  98     | 18      | - 98    | 100     | A soma da sequencia é 270  |
 ### Exercicio 04 
