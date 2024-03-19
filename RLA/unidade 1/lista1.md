@@ -116,7 +116,8 @@ flowchart TD
 
 ```
 
-#### Pseudocódigo 
+#### Pseudocódigo
+```
 ALGORITMO verifica_idade_CNH
 DECLARE idade, AnosFaltantes NUMERICO
 ESCREVA "Idade do condidato "
@@ -127,6 +128,7 @@ SE idade < 18 ENTAO
 	SENAO
 	ESCREVA " Pode tirar a CNH!"
 FIM_ALGORITMO
+```
 #### Teste de mesa 
 
 | Idade  | Situação para tirar CNH | Anos Faltantes
