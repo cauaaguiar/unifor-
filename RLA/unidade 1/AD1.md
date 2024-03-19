@@ -134,7 +134,7 @@ FIM_ALGORÍRIMO
 
 #### Teste de mesa (0.25 ponto)
 
-|    NADA      |  ALUNO 01    |  ALUNO 02    |  ALUNO 03    |  ALUNO 04  |  ALUNO 05     | 
+|              |  ALUNO 01    |  ALUNO 02    |  ALUNO 03    |  ALUNO 04  |  ALUNO 05     | 
 |    --        |  --          |  --          |   --         |   --       |    --         | 
 |   NOTAS      | 70           |  60          |   55         |  80        |  10           |
 |  SITUAÇÃO    | APROVADO     |  APROVADO    |   APROVADO   |  APROVADO  | REPROVADO     |
