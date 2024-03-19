@@ -5,7 +5,19 @@
 Atualize o algoritmo para determinar se um número inteiro e positivo é par ou ímpar, usando uma laço condicional para aceitar apenas números maiores ou iguais a zero. 
 
 #### Fluxograma 
-
+```mermaid
+flowchart TD
+A([INICIO]) --> B{{Digite um número: }}
+B --> C[/num/]
+C --> D{num > -1}
+D --TRUE--> E{num % 2 == 0}
+D --FALSE--> H{{"'[ERRO] O número informado é negativo, digite um valor positivo!'"}}
+H --> B
+E --TRUE--> F{{'O número informado é par!'}}
+E --FALSE--> G{{'O número informado é ímpar!'}}
+F --> I([FIM])
+G --> I
+``` 
 #### Pseudocódigo 
 
 #### Teste de mesa 
@@ -47,4 +59,20 @@ G --> E
 | 2º | 30 | 2 | true | Número 2 | 3 |
 | 3º | 30 | 3 | true | Número 3 | 4 |
 | 30º | 30 | 30 | true | Número 30 | 31 |
-| 31º | 30 | 31 | false |  |  |
+| 31º | 30 | 31 | false 
+
+
+### Exercicio 03 
+Dada uma sequência de números inteiros, calcular a sua soma. 
+Por exemplo, para a sequência {12, 17, 4, -6, 8, 0}, o seu programa deve escrever o número 35.
+#### Fluxograma 
+
+#### Pseudocódigos 
+
+#### Teste de mesa 
+
+### Exercicio 04 
+Escreva um programa que leia a nota de diversos alunos, até que seja digitada uma nota
+negativa. Nesse momento, ele mostra a média aritmética de todas as notas lidas e quantas
+notas foram lidas. Ex. Foram lidas 14 notas. A média aritmética é 6.75!
+#### Fluxograma 
