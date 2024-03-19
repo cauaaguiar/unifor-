@@ -71,17 +71,14 @@ A = Mem
 ESCREVA A, B
 FIM_ALGORITMO
 ```
-Algoritmo TrocaValores
-FIM_ALGORITMO
-```
+
 
 #### Teste de mesa (0.25 ponto)
 
-| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
-|      --      |      --      |      --      |      --      |      --      | 
-| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |   
-| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
-
+|  A  |  B  |  VALORES  |  INVERSO  |
+| --  | --  |  --       |   --      |
+|  4  | 8   | 4 , 8     |  8 , 4    |
+|  2  | 7   | 2 , 7     |  7 , 2    |
 ### Questão 2 - Contagem (1 ponto)
 
 Dado um conjunto $n$ de notas de alunos em um exame, implemente e teste um algoritmo para fazer uma contagem $cont$ do número de alunos que foram aprovados no exame. 
@@ -89,19 +86,26 @@ Será considerado aprovado o aluno que tirar $nota$ 50 ou maior (no intervalo de
 
 #### Fluxograma (0.25 ponto)
 
-```mermaid 
-flowchart TD 
-    A(Início) --> B(Entrada das notas);
-    B --> C(Contador de alunos aprovados = 0);
-    C --> D(Para cada nota no conjunto de notas);
-    D --> E(Nota >= 50);
-    E --> F(Sim);
-    F --> G(Aprovado);
-    E --> H(Não);   
-    H --> K(Reprovado);
-    K --> M(Fim)
+```mermaid
+flowchart TD
+A([INICIO])
+A --> C[N_aprov = 0]
+C --> D{{Digite a quanidade de notas para avaliar}}
+D --> E[/N_notas/]
+E --> F{N_notas > 0}
+F --FALSE--> G{{Digite uma quantidade válida}}
+G --> E
+F --TRUE--> H{N_notas = N_ver}
+H --TRUE--> I{{A quantidade de notas aprovadas foi N_aprov}}
+H --FALSE--> J{{Insira a nota}}
+J --> K[/nota/]
+K --> L{nota >= 50 e nota <= 100}
+L --TRUE--> M[N_aprov =+ 1]
+M --> N[N_ver =+ 1]
+L --FALSE--> N
+N --> H
+I --> Z([FIM])
 ```
-
 #### Pseudocódigo (0.5 ponto)
 
 ```
