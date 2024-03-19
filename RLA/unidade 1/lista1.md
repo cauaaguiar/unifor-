@@ -10,27 +10,36 @@ duas notas de um aluno e mostrar sua situação, que pode ser aprovado ou reprov
 #### Fluxograma 
 ```mermaid
 flowchart TD
-    A(Início) --> B{{Entrada da primeira nota}}
-    B --> C{{Entrada da segunda nota}};
-    C --> D[/Calcular a média aritmética/];
-    D --> E(Verificar se a média é maior ou igual a 6);
-    E --> F(Sim);
-    F --> G(Aprovado)
-    G --> H(FIM)
-    E --> I(Não)
-    I --> J(Reprovado)
-    J --> H(Fim)
- ```
+A([Início])-->B{{Informe as duas notas}}
+B-->C[/N1, N2/]
+C-->D[Média = N1/2 + N2/2]
+D-->E{Média >= 7}
+E--SIM-->F{{Aprovado}}
+E--NÃO-->G{{Reprovado}}
+F-->H([Fim])
+G-->H([Fim])
+```
+#### Pseudocódigo 
+```
+ALGORITMO
+DECLARE N1, N2, M NUMÉRICO 
+ESCREVA “Digite as duas notas” 
+LEIA N1, N2 
+M = (N1+N2)/2
+SE M >= 7
+	ENTÃO ESCREVA “Aprovado” 
+SENÃO  
+	ESCREVA “Reprovado“ 
+FIM_ALGORITMO.
+```
 
-#### Pseudocódigo
 
 #### Teste de mesa 
-| Notas  | Calculo |
-|      --      |      --      | 
-| Nota 1     | 8       |
-| Nota 2   | 6       | 
-| Média Aritmética |8+6/2=7 
-| Média = | 7 / APROVADO
+| NOTA 1       | NOTA 2       | MÉDIA=N1+N2/2 |SITUAÇÃO 
+|      --      |      --      |    --         |
+| 10           | 6            | 8             | Aprovado 
+| 5            | 9            | 7             | Aprovado 
+| 3            | 4            | 3,5           | Reprovado 
 
 ### Exercício 02
 Represente, em fluxograma e pseudocódigo, um algoritmo para calcular o novo salário de um
