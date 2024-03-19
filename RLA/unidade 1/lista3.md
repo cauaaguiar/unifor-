@@ -19,8 +19,33 @@ F --> I([FIM])
 G --> I
 ``` 
 #### Pseudocódigo 
+```
+	ALGORITMO par_impar
+	DECLARE num: INTEIRO
+	INICIO
+	ESCREVA 'Digite um número: '
+	LEIA num
+	SE num < 0 ENTAO
+		REPITA
+			ESCREVA '[ERRO] O número informado é negativo, digite um valor positivo: '
+			LEIA num
+		ATE_QUE num > -1
 
-#### Teste de mesa 
+	SE num % 2 == 0 ENTAO
+		ESCREVA 'O número informado é par!'
+	SENAO 
+		ESCREVA 'O número informado é ímpar!'
+	FIM_ALGORITMO
+```
+
+### Teste de Mesa
+
+| num | num > -1 | num % 2 == 0 | Saída
+|--- |--- |--- |--- |
+
+| 0 | true | true | 'O número informado é par!' |
+| 5 | true | false | 'O número informado é ímpar!'|
+| 4 | true | true | 'O número informado é par!' 
 
 ### Exercicio 02
 Faça um algoritmo que exiba na tela uma contagem de 0 até 30, exibindo apenas os múltiplos de 3.
