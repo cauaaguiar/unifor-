@@ -72,21 +72,36 @@ Represente, em fluxograma e pseudocódigo, um algoritmo para determinar se um n�
 e positivo é par ou impar
 
 #### Fluxograma 
+#### Fluxograma
 ```mermaid
 flowchart TD
-
-    A(Início) --> B(Entrada do número inteiro positivo);
-    B --> C(Verificar se o número é par ou ímpar);
-    C --> D(Se o número for par);
-    D --> E(saída número par)
-    E --> F(Fim)
-    C --> G(Se o número for impar)
-    G --> H(saída número impar)
-    H -->F(Fim)
-
+A([INICIO]) --> B{{Digite um número: }}
+B --> C[numero]
+C --> D{numero >= 0}
+D --NÃO--> E{{O número deve ser positivo!}}
+E --> Z([FIM])
+D --SIM--> F[resto = numero % 2]
+F --> G{resto == 0}
+G --NÃO--> H{{O número é ímpar!}} --> Z([FIM])
+G --SIM--> I{{O número é par!}} 
+I --> Z([FIM])
 ```
 #### Pseudocódigo
-
+```
+	ALGORITMO verifica_par_impar
+	DECLARE numero, resto NUMERICO
+	ESCREVA "Digite o número: "
+	LEIA numero
+	SE numero >= 0 ENTAO
+		resto <- numero % 2
+		SE resto == 0 ENTAO
+			ESCREVA "O número é par"
+		SENAO
+			ESCREVA "O número é ímpar"
+	SENAO
+		ESCREVA "O número deve ser positivo"
+	FIM_ALGORITMO
+```
 #### Teste de mesa 
 | numero | Número Impar ou Par |
 | -- | -- |
