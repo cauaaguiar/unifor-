@@ -50,22 +50,30 @@ aumento de 20%; os demais terão aumento de 10%.
 
 ```mermaid
 flowchart TD
-   
-    A(Início) --> B(Entrada do salário atual);
-    B --> C(Verificar se o salário atual é menor ou igual a R$ 500);
-    C --> D(Sim);
-    D --> E(Calcular aumento de 20%);
-    E --> F(Calcular novo salário);
-    F --> G(saída novo salário);
-    G --> H(Fim);
-    C --> I(Não);
-    I --> J(Calcular aumento de 10%);
-    J --> K(Calcular novo salário);
-    K --> G;
-
-
+A([Início])-->B{{Informe o seu salário}}
+B-->C[/salario/]
+C-->D{salario > 500}
+D--SIM-->E[salario_novo = salario * 110%]
+D--NÃO-->F[salario_novo = salario * 120%]
+E-->G{{salario_novo}}
+F-->G{{salario_novo}}
+G-->H([Fim])
 ```
-#### Pseudocódigo 
+#### Pseudocódigos 
+```
+ALGORITMO
+DECLARE salario, salario_novo NUMÉRICO 
+ESCREVA “Digite seu salário” 
+LEIA salario
+SE salario > 500
+	ENTÃO
+		salario_novo = salario * 110%
+		ESCREVA "salario_novo"
+SENÃO
+	salario_novo = salario * 120%
+	ESCREVA “salario_novo“ 
+FIM_ALGORITMO.
+```
 
 
 #### Teste de mesa 
