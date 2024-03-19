@@ -39,3 +39,13 @@ G --> E
 	FIM_ENQUANTO
 	FIM
 ```
+#### Teste de mesa
+
+| it | n | num | num <= n | Saída | num =+ 1 |
+|--- |--- |--- |--- |--- |--- |
+| 1º | 30 | 1 | true | Número 1 | 2 |
+| 2º | 30 | 2 | true | Número 2 | 3 |
+| 3º | 30 | 3 | true | Número 3 | 4 |
+| ... | ... | ... | ... | ... | ... |
+| 30º | 30 | 30 | true | Número 30 | 31 |
+| 31º | 30 | 31 | false |  |  |
