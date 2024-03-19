@@ -115,6 +115,18 @@ flowchart TD
     I --> F(Fim);
 
 ```
+
+#### Pseudocódigo 
+ALGORITMO verifica_idade_CNH
+DECLARE idade, AnosFaltantes NUMERICO
+ESCREVA "Idade do condidato "
+LEIA verificar a idade
+SE idade < 18 ENTAO
+	AnosQueFaltam <- 18 - idade
+    ESCREVA "Ainda restam 'anosQueFalta' anos para tirar a CNH"
+	SENAO
+	ESCREVA " Pode tirar a CNH!"
+FIM_ALGORITMO
 #### Teste de mesa 
 
 | Idade  | Situação para tirar CNH | Anos Faltantes
