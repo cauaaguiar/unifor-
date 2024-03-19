@@ -288,7 +288,6 @@ FIM_PARA
 ESCREVA "O valor do fatorial de", n, "é", fato 
 FIM_ALGORITMO
 ```
-```
 
 #### Teste de mesa (0.5 ponto)
 
