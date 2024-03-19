@@ -203,16 +203,39 @@ Calcular o valor de S, conforme definido pela seguinte série infinita:
 $$ S = \frac{1}{2} + \frac{3}{4} + \frac{5}{6} + \frac{7}{8} + \dots $$
 
 #### Fluxograma (0.25 ponto)
-
 ```mermaid
 flowchart TD
-A([INICIO]) --> B([FIM])
+A([INICIO]) --> B[S = 0]
+B --> D{{Digite a quantidade de termos da série que voce quer somar}}
+D --> E[/Num_termo/]
+E --> F{Num_termo > 0}
+F --FALSE--> G{{Digite uma quantidade válida}}
+G --> E
+F --TRUE--> H{Num_termo = termo}
+H --FALSE--> I[termo =+ 1]
+I --> J["S =+ (2 * termo - 1)/(2 * termo)"]
+J --> H
+H --TRUE--> K{{"O valor da soma de Num_termos termo(s) da série é S"}}
+K --> L([FIM])
 ```
 
 #### Pseudocódigo (0.5 ponto)
-
 ```
-Algoritmo ContaAprovacoes
+Algoritmo soma_da_serie
+DECLARE Num_termo, termo: Int
+	S: Float
+INICIO
+S = 0
+ESCREVA "Digite a quantidade de termos da série que você quer somar"
+LEIA Num_termo // 3 
+ENQUANTO Num_termo < 0 FAÇA
+	ESCREVA "Digite uma quantidade válida"
+	LEIA Num_termo
+FIM_ENQUANTO
+PARA termo DE 1 ATÉ Num_termo [PASSO 1] FAÇA
+	S =+ (2 * termo - 1)/(2 * termo)
+FIM_PARA
+ESCREVA "O valor da soma de", Num_termo, "termo(s) da série é", S
 FIM_ALGORITMO
 ```
 
