@@ -292,10 +292,10 @@ FIM_ALGORITMO
 
 #### Teste de mesa (0.5 ponto)
 
-| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
-|      --      |      --      |      --      |      --      |      --      | 
-| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
-| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
+| NÚMERO!  |  CÁCULO   | VALOR DO FATORIAL |
+| --       |  --       |   --              |
+| 5!       | 5*4*3*2*1 |  120              |
+| 3!       | 3 * 2 * 1 |   6               |
 
 ### Questão 6 - Geração da sequência de Fibonacci (2 pontos)
 
