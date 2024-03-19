@@ -43,7 +43,7 @@ Por exemplo, se na apresentação do exercício, o aluno atenter parcialmente os
 Dadas duas variáveis, $a$ e $b$, implemente e teste um algoritmo para trocar os valores atribuídos a elas.
 #### Fluxograma (0.25 ponto)
 
-`mermaid
+```mermaid
 flowchart TD
 A([INICIO]) --> B{{"Digite o valor de A"}}
 B --> C[/A/]
@@ -57,7 +57,19 @@ I --> J([FIM])
 ```
 
 #### Pseudocódigo (0.5 ponto)
-
+```
+Algoritmo TrocaValores
+DECLARE A, B, Mem: float
+INICIO
+ESCREVA "Digite o valor de A"
+LEIA A
+ESCREVA "Digite o valor de B"
+LEIA B
+Mem = B
+B = A
+A = Mem
+ESCREVA A, B
+FIM_ALGORITMO
 ```
 Algoritmo TrocaValores
 FIM_ALGORITMO
