@@ -42,7 +42,6 @@ G --> I
 
 | num | num > -1 | num % 2 == 0 | Saída
 |--- |--- |--- |--- |
-
 | 0 | true | true | 'O número informado é par!' |
 | 5 | true | false | 'O número informado é ímpar!'|
 | 4 | true | true | 'O número informado é par!' 
