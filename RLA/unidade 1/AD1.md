@@ -299,48 +299,77 @@ Gerar e imprimir os $n$ primeiros termos da sequência de Fibonacci, onde $n ≥
 Os primeiros termos são: $0, 1, 1, 2, 3, 5, 8, 13, \dots$ <br>
 Cada termo, além dos dois primeiros, é derivado da soma dos seus dois antecessores mais próximos.
 
-#### Fluxograma (0.5 ponto)
+#### Fluxograma
 
 ```mermaid
 flowchart TD
-A([INICIO]) --> B([FIM])
+A([INICIO]) --> B{{"Número de termos da série Fibonacci:"}}
+B --> C[a = 0]
+C --> D[b = 1]
+D --> E[[i=1 ATÉ n PASSO 1]]
+E --"i > n"--> J([FIM])
+E --"i=1,2,...,n"--> F{{a}}
+F --> G[termo_atual = a + b]
+G --> H[a = b]
+H --> I[b = termo_atual]
+I --LOOP--> E 
 ```
 
-#### Pseudocódigo (1.0 ponto)
-
+#### Pseudocódigo (2 pontos)
+ NÃO CONSEGUI FAZER PROFESSOR 
 ```
-Algoritmo ContaAprovacoes
-FIM_ALGORITMO
+Algoritmo GeraFibonacci
+INICIO
+...
+FIM
 ```
-#### Teste de mesa (0.5 ponto)
+#### Teste de mesa
 
-| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
-|      --      |      --      |      --      |      --      |      --      | 
-| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
-| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
+| it | n  | a  | b  | i  | saída | termo_atual = a + b | a = b | b = termo_atual |
+| -- | -- | -- | -- | -- | --    | --                  | --    | --              |
+| 1  | 5  | 0  | 1  | 1  | 0     | 0 + 1 = 1           | 1     | 1               |
+| 2  | 5  | 1  | 1  | 2  | 1     | 1 + 1 = 2           | 1     | 2               |
+| 3  | 5  | 1  | 2  | 3  | 1     | 1 + 2 = 3           | 2     | 3               |
+| 4  | 5  | 2  | 3  | 4  | 2     | 2 + 3 = 5           | 3     | 5               |
+| 4  | 5  | 3  | 5  | 5  | 3     | 3 + 5 = 8           | 5     | 8               |
+
 
 ### Questão 7 - Inversão dos dígitos de um número inteiro (2 pontos)
 
 Inverter a ordem dos dígitos de um número inteiro positivo.
 
-#### Fluxograma (0.5 ponto)
-
 ```mermaid
 flowchart TD
-A([INICIO]) --> B([FIM])
+A([INICIO]) --> B{{Digite um número inteiro: }}
+B --> C[\num\]
+C --> D{num >= 0}
+D --TRUE--> G[num_inv = 0]
+G --> H{num > 0}
+H --FALSE--> Z{{"Número invertido:", numero_inv}}
+Z --> W([FIM])
+H --TRUE--> I[digito = num % 10]
+I --> J[num_inv = num_inv * 10 + digito]
+J --> K[numero = numero // 10]
+K --LOOP--> H
+D --FALSE--> E{{O número deve ser positivo!}}
+E --> W
 ```
 
-#### Pseudocódigo (1.0 ponto)
-
+#### Pseudocódigo (2 pontos)
+NAO CONSEGUI FAZER PROFESSOR 
 ```
-Algoritmo ContaAprovacoes
-FIM_ALGORITMO
+Algoritmo InverteInteiro
+INICIO
+...
+FIM
 ```
 
-#### Teste de mesa (0.5 ponto)
+#### Teste de mesa
 
-| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
-|      --      |      --      |      --      |      --      |      --      | 
-| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
-| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
-
+| it | num | num_inv | num > 0 | digito | num = num // 10 | num_inv = (num_inv * 10) + digito | Saída                       |
+| -- | --  | --      | --     | --      | --              | --                                | --                          |
+|    | -1  | 0       | False  |         |                 |                                   | O número deve ser positivo! |
+| 1  | 0   | 0       | False  |         |                 |                                   | Número invertido:: 0        |
+| 1  | 42  | 0       | True   | 2       | 4               | 2                                 |                             |
+| 2  | 4   | 2       | True   | 4       | 0               | 24                                |                             |
+| 3  | 0   | 24      | False  |         |                 |                                   | Número invertido:: 24       |
